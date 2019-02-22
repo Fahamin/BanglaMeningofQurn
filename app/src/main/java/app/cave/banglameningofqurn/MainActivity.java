@@ -101,13 +101,13 @@ public class MainActivity extends AppCompatActivity {
         modelList.add(new Model("55.আর রহমান "));
         modelList.add(new Model("56.আল ওয়াক্বিয়া "));
         modelList.add(new Model("57.আল হাদীদ "));
-        modelList.add(new Model("58.আল মুজাদালাহ n"));
+        modelList.add(new Model("58.আল মুজাদালাহ "));
         modelList.add(new Model("59.আল হাশর "));
         modelList.add(new Model("60.মমতাহিনা "));
         modelList.add(new Model("61.আছ-ছফ  "));
         modelList.add(new Model("62.আল জুমুআহ "));
         modelList.add(new Model("63.মুনাফিকুন  "));
-        modelList.add(new Model("64.আত-তাগাবুন n"));
+        modelList.add(new Model("64.আত-তাগাবুন "));
         modelList.add(new Model("65.আত্ব-ত্বালাক্ব  "));
         modelList.add(new Model("66.আত-তাহরীম "));
         modelList.add(new Model("67.আল মুলক   "));
@@ -115,14 +115,14 @@ public class MainActivity extends AppCompatActivity {
         modelList.add(new Model("69.আল হাক্বক্বাহ  "));
         modelList.add(new Model("70.আল মা’আরিজ   "));
         modelList.add(new Model("71.নূহ   "));
-        modelList.add(new Model("72.আল জিন n "));
+        modelList.add(new Model("72.আল জিন  "));
         modelList.add(new Model("73.মুযযামমিল   "));
         modelList.add(new Model("74.আল মুদ্দাসসির  "));
-        modelList.add(new Model("75.আল ক্বেয়ামাহ n "));
+        modelList.add(new Model("75.আল ক্বেয়ামাহ  "));
         modelList.add(new Model("76.আদ-দাহর "));
         modelList.add(new Model("77.আল মুরসালাত  "));
-        modelList.add(new Model("78.আন-নাবা n  "));
-        modelList.add(new Model("79.আন-নযিআ’ত n"));
+        modelList.add(new Model("78.আন-নাবা   "));
+        modelList.add(new Model("79.আন-নযিআ’ত "));
         modelList.add(new Model("80.আবাসা  "));
         modelList.add(new Model("81.আত-তাকভীর  "));
         modelList.add(new Model("82.আল ইনফিতার  "));
@@ -149,7 +149,7 @@ public class MainActivity extends AppCompatActivity {
         modelList.add(new Model("103.আসর  "));
         modelList.add(new Model("104.হুমাযাহ  "));
         modelList.add(new Model("105.ফীল  "));
-        modelList.add(new Model("106.কোরাইশ n "));
+        modelList.add(new Model("106.কোরাইশ  "));
         modelList.add(new Model("107.মাউন   "));
         modelList.add(new Model("108.কাওসার  "));
         modelList.add(new Model("109.কাফিরুন   "));
@@ -719,8 +719,8 @@ public class MainActivity extends AppCompatActivity {
                     suraTxt.setText(preferences.getString("111", null));
                     suraTxt.setVisibility(View.VISIBLE);
                     listView.setVisibility(View.GONE);
-                } if (position == 111 && preferences.contains("102")) {
-                    suraTxt.setText(preferences.getString("102", null));
+                } if (position == 111 && preferences.contains("112")) {
+                    suraTxt.setText(preferences.getString("112", null));
                     suraTxt.setVisibility(View.VISIBLE);
                     listView.setVisibility(View.GONE);
                 }
